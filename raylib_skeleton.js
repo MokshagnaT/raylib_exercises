@@ -4,11 +4,11 @@ const window_height = 400;
 r = require("raylib");
 
 function setup() {
-    r.InitWindow(window_width, window_height, "Circles Optical Illusion");
+    r.InitWindow(window_width, window_height, "Circle Optical Illusion");
     r.SetTargetFPS(50);
 }
 
-function update() {}
+function update() { }
 
 function draw() {
     r.BeginDrawing();
